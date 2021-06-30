@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, sans-serif;
+}
+
+body{
+    background-color:black;
+}
+
+header{
+    padding: 10px;
+    width: 100%;
+    height: 30%;
+    position: relative;
+    background-color: #505050;
+    text-align: center;
+    color: white;
+    border-bottom: 4px solid #32949b;
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+.title{
+    position: relative;
+    font-size: 5vh;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+section{
+    padding:20px;
+    background-image: url(../Imagens/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color:#FFFFFFBB;
+    padding:20px;
+    float: right;
+}
+
+
+.formContainer h2{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.mb{
+margin-bottom: 15px;
+
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding:10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: #FFFFFF;
+    font-size:3vh;
+    font-weight: bold;
+    background-color: #32949b;
+}
+
+input[type=radio]{
+    font-size: larger;
+    border: 4px solid #ec0000;
+}
+
+input[type="submit"]:hover{
+    background-color: #155c61;
+}
+
+.gender{
+    display: flex;
+    margin-right: 10px;
+    padding:10px;
+    border:8px solid #bbbbbb;
+    font-weight: 500s;
+    font-size:16px;
+}
+
+
+select{
+   -moz-appearance:none;
+   -webkit-appearance: none;
+   appearance: none;
+   background-image:  url(../imagens/arrow.jpg);
+   background-repeat: no-repeat;
+   background-position: calc(100% - 10px);
+   
+}
+
+footer{
+    border-top: 4px solid #32949b;
+    background-color:#202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture{
+    max-width: 160px;
+}
+
+.description{
+    color:#FFFFFF;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+
+}
+
+.description p, .description h2{
+    margin-bottom: 20px;
+}
+
+.description h2{
+    font-size: 24px;
+
+}
+
+@media screen and (max-width:750px){
+
+
+    .title{  
+        font-size: 4vh;
+    }
+}
+    
+@media screen and (max-width:650px){
+
+
+
+.title{
+    font-size: 3vh;
+}
+
+.formContainer{
+    max-width: 200px;
+    background-color:#FFFFFFBB;
+    padding:20px;
+    float: center;
+}
+   .gender{
+    position: relative;
+    width: 40%;
+    height: 20px;
+    display:inline-block;
+    margin-top:-20px;
+    border:none;
+    font-size:12px;
+} 
+
+.gender p{
+    margin: 5px;
+    font-size:16px;
+} 
+
+
+}
+    
